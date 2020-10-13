@@ -1,4 +1,4 @@
-
+// 时间格式化      yyyy:MM:dd HH:mm:SS
 function fomartDate(date, formatStr) {
   var str = formatStr;
   var Week = ['日', '一', '二', '三', '四', '五', '六'];
@@ -24,6 +24,3 @@ function fomartDate(date, formatStr) {
 
   return str;
 }
-
-const a = fomartDate(new Date(),'YYYY-MM-DD HH:mm:SS')
-console.log(a,"++++")
